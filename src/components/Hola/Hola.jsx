@@ -5,8 +5,8 @@ const Hola = () => {
   return (
     <section className="background">
       <header className="linea">
-        <span><img src="./src/assets/imagen1.jpg" alt="img" className="imagen" />
-        </span>
+        <img src="./src/assets/imagen1.jpg" alt="img" className="imagen" />
+        
         <span>
           <p>milagros_robles</p>
         </span>
