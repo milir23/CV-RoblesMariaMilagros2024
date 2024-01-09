@@ -1,0 +1,139 @@
+header p {
+    display: flex;
+    justify-content: center;
+    position: relative;
+    bottom: 25px;
+    font-size: 14px;
+    color: var(--color3);
+    font-weight: bold;
+  
+  }
+  
+  .estiloa {
+    color: var(--color1);
+    display: flex;
+    flex-direction: row;
+    margin-bottom: 5px;
+    border-bottom: 1px solid var(--colorlinea);
+    background-color: var(--colorfondo3);
+    text-decoration: none;
+  
+  
+  }
+  
+  .botones {
+    padding: 10px 0px 10px 0px;
+    border-right: 0.7px solid var(--colorlinea);
+    border-top: none;
+    font-size: 13px;
+    font-weight: 400;
+  }
+  
+  .hola {
+    color: var(--color4);
+    background-color: var(--colorfondo2);
+    padding: 10px 50px 10px 50px;
+    font-size: 12px;
+  }
+  
+  .sobremi {
+    color: var(--color3);
+  }
+  
+  a {
+    padding: 10px 40px 10px 40px;
+    text-decoration: none;
+  }
+  
+  
+  .estilob {
+    color: var(--color1);
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    position: relative;
+    padding-top: 100px;
+  
+  }
+  
+  .diva {
+    margin: 5px 0px 120px 20px;
+  }
+  
+  .soy {
+    margin: 0px 10px 0px 10px;
+    font-size: 13px;
+    font-weight: 300;
+  
+  }
+  
+  h1 {
+    margin: 0px 10px 0px 10px;
+    font-weight: 500;
+    font-size: 40px;
+    font-family: var(--fuente1);
+  
+  }
+  
+  h2 {
+    margin: 0px 10px 0px 10px;
+    color: var(--color5);
+    font-weight: 300;
+    font-size: 19px;
+  }
+  
+  .codigo {
+    margin: 0px 0px 0px 25px;
+    font-size: 13px;
+  }
+  
+  .footer {
+    display: flex;
+    flex-direction: row;
+    color: var(--color1);
+  }
+  
+  .lista {
+    display: flex;
+    flex-direction: row;
+  }
+  
+  .parrafo {
+    margin: 85px 0px 0px 10px;
+    padding: 5px;
+    font-size: 12px;
+  }
+  
+  
+  .recuadro1 {
+    padding: 15px ;
+    border: 1px solid #1b2835;
+    border-radius: 10px;
+    box-shadow: 1px 1px 50px 1px var(--colorshadow);
+    margin: 40px 100px 10px 10px;
+    
+    /* Sombras con valores x, y, desenfoque y color */
+  
+  }
+  
+  .recuadro2 {
+    color: var(--color6);
+    padding: 5px 50px 5px 25px;
+    border: 2px solid black;
+    border-radius: 5px;
+    background-color: var(--colorfondo3);
+  }
+  
+  .proyecto1 {
+    margin: 10px 0px 20px 0px;
+    font-size: 13px;
+    color: #F4BE52;
+  }
+  
+  .espacio {
+    padding: 10px 25px 35px 0px;
+  }
+  
+  .espacio p {
+    font-size: 15px;
+  }
