@@ -1,12 +1,14 @@
 import React from 'react';
 import './Hola.css';
 
+
+
 const Hola = () => {
   return (
     <section className="background">
       <header className="linea">
-        <img src="./src/assets/imagen1.jpg" alt="img" className="imagen" />
-
+        
+        {/* MENU */}
         <span>
           <p>milagros_robles</p>
         </span>
@@ -18,23 +20,27 @@ const Hola = () => {
         <div className="botones"><a href="" className="sobremi">_proyectos</a></div>
       </section>
 
-
+      {/* PARTE MEDIA */}
       <section className="estilob">
-        <section>
+        <section className="individual1">
           <div className="diva">
             <p className="soy">Hola! soy</p>
             <h1>Milagros Robles</h1>
             <h2>Desarrolladora Front-end Junior</h2>
           </div>
 
-          <div>
-            <p className="codigo">//escribí el código a continuación para seguir:</p>
-            <br />
-            <p>{'>'}
-              {/* <Link to="/quienEs">quienEs</Link> */}
-            </p>
-          </div>
+          <section>
+            <div>
+              <p className="codigo">//escribí el código a continuación para seguir:</p>
+              <br />
+              <p className="quienes">
+                quienEs
+              </p>
+            </div>
+          </section>
         </section>
+
+        {/* Recuadro */}
         <section>
           <div className="recuadro1">
             <div className="proyecto1">Proyecto 1</div>
@@ -45,36 +51,28 @@ const Hola = () => {
                 <p>* Manejo de React</p>
                 <p>* Vite</p>
                 <p>* Bootstrap <br />*/</p>
-
               </div>
               <div className='espaciobtn'>
                 <p>
                   <a href="#" className="btn1">Ver más</a>
                 </p>
               </div>
-
-
             </div>
-
           </div>
         </section>
       </section>
-
-      <footer>
-        <div className="footer">
-          <div className="lista">
-            <p className="parrafo">Encontrame en:</p>
-            <p></p>
-            <p></p>
-            <p></p>
-          </div>
-
-
-        </div>
-      </footer>
+      <section>
+          <footer>
+            <div className="footer">
+              <div className="lista">
+                <p className="parrafo">Encontrame en:</p>
+                {/* Agrega aquí los enlaces o información del pie de página */}
+              </div>
+            </div>
+          </footer>
+        </section>
     </section>
   );
 };
 
 export default Hola;
-
