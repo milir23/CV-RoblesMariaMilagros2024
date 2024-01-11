@@ -63,6 +63,7 @@ header p {
   justify-content: center;
   position: relative;
   bottom: 25px;
+  top: 5px;
   font-size: 14px;
   color: var(--color3);
   font-weight: bold;
