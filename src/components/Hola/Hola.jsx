@@ -6,7 +6,7 @@ const Hola = () => {
     <section className="background">
       <header className="linea">
         <img src="./src/assets/imagen1.jpg" alt="img" className="imagen" />
-        
+
         <span>
           <p>milagros_robles</p>
         </span>
@@ -37,7 +37,7 @@ const Hola = () => {
         </section>
         <section>
           <div className="recuadro1">
-            <div className="proyecto1">Proyecto1</div>
+            <div className="proyecto1">Proyecto 1</div>
             <div className="recuadro2">
               <div className="espacio">
                 <p>/**</p>
@@ -45,9 +45,17 @@ const Hola = () => {
                 <p>* Manejo de React</p>
                 <p>* Vite</p>
                 <p>* Bootstrap <br />*/</p>
-                <button>Ver más</button>
+
               </div>
+              <div className='espaciobtn'>
+                <p>
+                  <a href="#" className="btn1">Ver más</a>
+                </p>
+              </div>
+
+
             </div>
+
           </div>
         </section>
       </section>

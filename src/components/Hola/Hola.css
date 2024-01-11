@@ -36,7 +36,7 @@ body {
   background-color: var(--colorfondo2);
   padding: 0px;
   width: 1435px;
-  height: 620px;
+  height: 700px;
   border-radius: 8px;
   margin: 10px 35px 40px 35px;
 
@@ -113,6 +113,7 @@ a {
   align-items: center;
   position: relative;
   padding-top: 100px;
+  margin: 50px 0px 0px 0px;
 
 }
 
@@ -158,42 +159,55 @@ h2 {
   flex-direction: row;
 }
 
-.parrafo {
-  margin: 85px 0px 0px 10px;
-  padding: 5px;
-  font-size: 12px;
-}
 
 
 .recuadro1 {
-  padding: 15px ;
+  padding: 10px 15px 15px 15px ;
   border: 1px solid #1b2835;
   border-radius: 10px;
   box-shadow: 1px 1px 50px 1px var(--colorshadow);
   margin: 40px 100px 10px 10px;
   
-  /* Sombras con valores x, y, desenfoque y color */
+
 
 }
 
 .recuadro2 {
   color: var(--color6);
-  padding: 5px 50px 5px 25px;
+  padding: 5px 5px 5px 0px;
   border: 2px solid black;
   border-radius: 5px;
   background-color: var(--colorfondo3);
 }
 
 .proyecto1 {
-  margin: 10px 0px 20px 0px;
-  font-size: 13px;
+  font-size: 12px; 
   color: #F4BE52;
+  margin: 10px 0px 15px 0px;
 }
 
 .espacio {
-  padding: 10px 25px 35px 0px;
+  padding: 10px 25px 25px 30px;
 }
 
 .espacio p {
   font-size: 15px;
+}
+
+.btn1 {
+  background-color: #8a6e35;
+  color: var(--colorfondo2);
+  font-size: 13px;
+  font-weight: 700;
+  padding:  1px 300px 1px 40px;
+
+}
+.parrafo {
+  margin: 110px 0px 0px 10px;
+  padding: 5px;
+  font-size: 12px;
+}
+
+.espaciobtn {
+margin: 0px 0px 25px 0px;
 }
