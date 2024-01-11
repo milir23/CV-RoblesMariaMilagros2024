@@ -1,0 +1,108 @@
+@import url('https://fonts.googleapis.com/css2?family=Fira+Code&family=Inclusive+Sans&display=swap');
+
+:root {
+  --fuente1: 'Fira Code', monospace;
+  --fuente2: "Consolas, 'Courier New', monospace";
+  --colorfondo1: #242424;
+  --colorfondo2: #0D1117;
+  --colorfondo3: #010409;
+  --color1: #ffffffde;
+  --color2: #646cff;
+  --color3: #43474C;
+  --color4: #F4BE52;
+  --color5: #79C0FF;
+  --color6: #8b949e;
+  --color7: #bf616a;
+  --colorlinea: #282D39;
+  --colorfondobtn: #1a1a1a;
+  --colorshadow: #1f2f3e;
+
+}
+
+* {
+  padding: 0;
+  margin: 0;
+}
+
+body {
+  width: 100%;
+  background-color: var(--colorfondo3);
+  font-family: var(--fuente1);
+  position: absolute;
+}
+
+/* Fondo */
+.background {
+  background-color: var(--colorfondo2);
+  padding: 0px;
+  width: 1435px;
+  height: 700px;
+  border-radius: 8px;
+  margin: 10px 35px 40px 35px;
+
+}
+
+/* Parte superior */
+.imagen {
+  height: 22px;
+  width: 50px;
+  margin: 5px 1px 1px 5px;
+}
+
+.linea {
+  height: 30px;
+  border-bottom: 2px solid var(--colorlinea);
+}
+
+header {
+  height: 34px;
+}
+
+header p {
+  display: flex;
+  justify-content: center;
+  position: relative;
+  bottom: 25px;
+  top: 5px;
+  font-size: 14px;
+  color: var(--color3);
+  font-weight: bold;
+
+}
+
+.estiloa {
+  color: var(--color1);
+  display: flex;
+  flex-direction: row;
+  margin-bottom: 5px;
+  border-bottom: 8px solid var(--colorfondo2);
+  background-color: var(--colorfondo3);
+  text-decoration: none;
+  box-shadow: 0px 10px 60px 0px var(--colorfondo3);
+
+
+}
+
+.botones {
+  padding: 10px 0px 10px 0px;
+  border-right: 0.7px solid var(--colorlinea);
+  border-top: none;
+  font-size: 13px;
+  font-weight: 400;
+}
+
+.hola {
+  color: var(--color4);
+  background-color: var(--colorfondo2);
+  padding: 10px 50px 10px 50px;
+  font-size: 12px;
+}
+
+.sobremi {
+  color: var(--color3);
+}
+
+a {
+  padding: 10px 40px 10px 40px;
+  text-decoration: none;
+}

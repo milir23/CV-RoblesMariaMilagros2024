@@ -48,7 +48,7 @@ const Hola = () => {
               <div className="espacio">
                 <p>/**</p>
                 <p>* Lenguaje HTML CSS y JavaScript</p>
-                <p>* Manejo de React</p>
+                <p>* Manejo de ReactJS</p>
                 <p>* Vite</p>
                 <p>* Bootstrap <br />*/</p>
               </div>
@@ -65,8 +65,11 @@ const Hola = () => {
           <footer>
             <div className="footer">
               <div className="lista">
-                <p className="parrafo">Encontrame en:</p>
-                {/* Agrega aquí los enlaces o información del pie de página */}
+                <a className="parrafo">Encontrame en:</a>
+                <a className="parrafo"><i class="bi bi-github"></i></a>
+                <a className="parrafo"><i class="bi bi-linkedin"></i></a>
+                <a className="parrafo"> <i class="bi bi-envelope-at-fill"></i></a>
+                
               </div>
             </div>
           </footer>
