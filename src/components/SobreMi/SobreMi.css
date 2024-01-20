@@ -1,0 +1,85 @@
+.explo {position:relative;
+}
+.explorar { 
+    background-color:#010409;
+    color:#43474C;
+    text-decoration:none;
+    border-left: 2px solid #282D39;
+    padding: 9px 3.125em 10px 3.125em;
+    float: left;
+    position:relative;
+    left:450px;
+ 
+}
+
+.dispoli{position:relative;
+    bottom: 10px;
+    left: 90px;}
+
+.lista {
+    color:#8B949E;
+    list-style-type: none;
+    border-right: 1px solid #8B949E;
+    padding-right: 15px;
+    position:relative;
+    font-size: 13px;
+
+    ;
+
+    
+}
+
+.gradiant {
+    background-image:linear-gradient(#0D1117 #E5E9F0) ;
+    background-clip: text;
+    -webkit-text-fill-color:transparent;
+}
+
+.listados {
+    background-color:#010409;
+    border:1px solid #282D39;
+    color:#E5E9F0;
+    list-style-type: none;
+    position:relative;
+    right: 37px;
+    left: 74px;
+    top:0px;
+    bottom: 286px;
+    padding-bottom: 362px;
+    width: 282px;
+    padding-right: 150px;
+    
+
+}
+
+
+.lorem {
+    color:#8B949E;
+    font-size: 15px;
+    font-weight: 400;
+    border-left: 1px solid #8B949E;
+    padding-left: 15px;
+    position:relative;
+    left: 10px;
+    bottom:15px;
+}
+
+.hobbies { 
+    color:#8B949E;
+    font-size: 13px;
+    font-weight: 400;
+    position:relative;
+    left: 3px;
+    top: 3px;
+}
+
+.hobbdos {
+    color:#8B949E;
+    font-size: 13px;
+    font-weight: 400;
+    position:relative;
+    left: 25px;
+    top: 5px;
+}
+
+
